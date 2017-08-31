@@ -1,0 +1,6 @@
+string file_path
+---
+# service response
+# 0 - failed
+# 1 - success
+bool status

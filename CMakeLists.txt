@@ -15,6 +15,11 @@ add_message_files(
   DIRECTORY msg
   FILES
   IntensityMarker.msg)
+
+add_service_files(
+	FILES
+	SaveMap.srv)
+
 generate_messages(DEPENDENCIES std_msgs geometry_msgs)
 
 
